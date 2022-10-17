@@ -12,6 +12,8 @@ namespace CommandsService.Data
         void CreatePlatform(Platform platform);
 
         bool PlatformExists(int platformId);
+
+        bool ExternalPlatformExist(int externalPlatformId);
         #endregion
 
 

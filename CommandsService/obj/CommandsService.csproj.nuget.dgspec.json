@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj": {}
+    "d:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "D:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj": {
+    "d:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "d:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "D:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj",
+        "projectPath": "d:\\projects\\.net\\microservices\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\.net\\microservices\\CommandsService\\obj\\",
+        "outputPath": "d:\\projects\\.net\\microservices\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +43,20 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.7, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.49.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.50.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -57,6 +70,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
