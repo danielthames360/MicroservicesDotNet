@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SFw3fFKU2UN68HA4NSDc/cwzVhf8rPsxgN8WOR7Kj4xfhX81fOoSVOHBE1Zh1JtSPlSl5wlTUnlF2ol21W5cvg==",
+  "dgSpecHash": "9qOhxXjXZQHDmA/MIPUh3gG7nJYcrsIegAVYkGRKuW/I6DpsLrw8pdCg4ersVrpgwuaG/t3J27eRLLrq/VdtOg==",
   "success": true,
   "projectFilePath": "D:\\projects\\.net\\microservices\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,8 @@
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.7\\npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

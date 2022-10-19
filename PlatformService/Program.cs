@@ -15,18 +15,24 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-if (builder.Environment.IsProduction())
-{
-    Console.WriteLine("--> Using SqlServer Db");
-    builder.Services.AddDbContext<AppDbContext>(opt =>
-            opt.UseSqlServer(builder.Configuration.GetConnectionString("PlatformsConn")));
-}
-else
-{
-    Console.WriteLine("--> Using InMem Db");
-    builder.Services.AddDbContext<AppDbContext>(opt =>
-        opt.UseInMemoryDatabase("InMem"));
-}
+//Postgre
+Console.WriteLine("--> Using Postgres Db");
+builder.Services.AddDbContext<AppDbContext>(opt =>
+        opt.UseNpgsql(builder.Configuration.GetConnectionString("PlatformsPostgresConn")));
+
+//SQL
+// if (builder.Environment.IsProduction())
+// {
+//     Console.WriteLine("--> Using SqlServer Db");
+//     builder.Services.AddDbContext<AppDbContext>(opt =>
+//             opt.UseSqlServer(builder.Configuration.GetConnectionString("PlatformsSQLConn")));
+// }
+// else
+// {
+//     Console.WriteLine("--> Using InMem Db");
+//     builder.Services.AddDbContext<AppDbContext>(opt =>
+//         opt.UseInMemoryDatabase("InMem"));
+// }
 
 builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();

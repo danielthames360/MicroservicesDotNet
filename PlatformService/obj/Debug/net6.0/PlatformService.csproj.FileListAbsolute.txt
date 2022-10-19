@@ -71,3 +71,5 @@ D:\projects\.net\microservices\PlatformService\bin\Debug\net6.0\Grpc.Core.Api.dl
 D:\projects\.net\microservices\PlatformService\bin\Debug\net6.0\Grpc.Net.Client.dll
 D:\projects\.net\microservices\PlatformService\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
 D:\projects\.net\microservices\PlatformService\bin\Debug\net6.0\Grpc.Net.Common.dll
+D:\projects\.net\microservices\PlatformService\bin\Debug\net6.0\Npgsql.dll
+D:\projects\.net\microservices\PlatformService\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
