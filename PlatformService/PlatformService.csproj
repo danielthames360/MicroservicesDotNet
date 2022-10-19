@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>28fe5e5a-d378-4ee4-8fcd-ed05c3281ac2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\platforms.proto" GrpcServices="Server"></Protobuf>
+    <Protobuf Include="Protos\platforms.proto" GrpcServices="Server" />
   </ItemGroup>
+
 </Project>
